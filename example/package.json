@@ -1,0 +1,21 @@
+{
+  "name": "trpc-cache-example",
+  "version": "1.0.0",
+  "description": "tRPC Cache Example",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "server:start": "ts-node-dev --respawn --transpile-only src/server/index.ts",
+    "client:start": "ts-node-dev --respawn --transpile-only src/client.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/client": "^10.32.0",
+    "@trpc/server": "^10.32.0",
+    "superjson": "^1.12.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3",
+    "zod": "^3.21.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "trpc-cache",
+  "version": "1.0.0",
+  "description": "A middleware for tRPC that utilizes multiple different caching strategies",
+  "main": "index.js",
+  "scripts": {},
+  "author": "SGeri",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
+    "typescript": "^5.1.3",
+    "eslint": "^8.43.0",
+    "prettier": "^2.8.8"
+  }
+}
